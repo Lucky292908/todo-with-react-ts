@@ -1,0 +1,94 @@
+.todo-list-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Use a readable font */
+  }
+  
+  .add-todo {
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .add-todo input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Increase input font size for better visibility */
+  }
+  
+  .add-todo button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px; /* Increase button font size for better visibility */
+  }
+  
+  .add-todo button:hover {
+    background-color: #45a049;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    margin-bottom: 10px;
+    background-color: #ebd7d7;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-title {
+    flex: 1;
+    color: #333;
+    font-size: 16px; /* Increase font size for better readability */
+  }
+  
+  .todo-list li.completed {
+    background-color: #dff0d8;
+  }
+  
+  .completion-message {
+    color: #28a745;
+    margin: 10px;
+    margin-left: 10px;
+  }
+  
+  .todo-list li input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  .todo-list li button {
+    padding: 8px 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 14px; /* Adjust button font size */
+  }
+  
+  .todo-list li button.edit-button {
+    background-color: #007bff; /* Blue color */
+  }
+  
+  .todo-list li button.delete-button {
+    background-color: #dc3545; /* Red color for delete button */
+  }
+  
+  .todo-list li button:hover {
+    opacity: 0.8; /* Reduce opacity on hover for better feedback */
+  }
+  
+
+
+
